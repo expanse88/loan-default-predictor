@@ -1,9 +1,9 @@
-# 💳 Loan Default Risk Predictor
+# 💳 Loan Risk Predictor Application
 
 End-to-end tabular ML project: messy credit data → calibrated default-probability
 model → explainable predictions in a deployed web app.
 
-**Live demo:** _<add https://your-loan-predictor-13.streamlit.app/>_
+**Application Link:-**https://your-loan-predictor-13.streamlit.app
 
 ![App screenshot](reports/app_screenshot.png)
 
