@@ -5,7 +5,7 @@ model → explainable predictions in a deployed web app.
 
 Application Link:-https://your-loan-predictor-13.streamlit.app
 
-!(reports/app_screenshot.png)
+![App screenshot](reports/app_screenshot.png)
 
 ## Problem
 Given an applicant's credit profile, estimate the probability they will become
