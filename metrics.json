@@ -1,0 +1,66 @@
+{
+  "n_rows": 149999,
+  "default_rate": 0.06684044560297069,
+  "cost_assumption": {
+    "false_negative": 5.0,
+    "false_positive": 1.0
+  },
+  "cv": {
+    "logistic_regression": {
+      "roc_auc": [
+        0.8530852427968304,
+        0.004243937480085053
+      ],
+      "pr_auc": [
+        0.3744830513348781,
+        0.011061724453331038
+      ]
+    },
+    "lightgbm": {
+      "roc_auc": [
+        0.8656557009414051,
+        0.004554182646477421
+      ],
+      "pr_auc": [
+        0.40203125839530285,
+        0.009335650424555959
+      ]
+    }
+  },
+  "test": {
+    "logistic_regression": {
+      "roc_auc": 0.8534595970407737,
+      "pr_auc": 0.3770756617175405,
+      "brier": 0.14417862798116465
+    },
+    "lightgbm_raw": {
+      "roc_auc": 0.8656675486313503,
+      "pr_auc": 0.40567537645288365,
+      "brier": 0.04870807469706345
+    },
+    "lightgbm_calibrated": {
+      "roc_auc": 0.8653604992642976,
+      "pr_auc": 0.3927705428918554,
+      "brier": 0.048747469554108705
+    }
+  },
+  "decision": {
+    "threshold": 0.16369747899159665,
+    "precision": 0.3678357570573139,
+    "recall": 0.5718085106382979,
+    "reject_rate": 0.1039111111111111,
+    "cost_per_applicant": 0.2088
+  },
+  "decision_reject_all_baseline_cost": 0.3342222222222222,
+  "params": {
+    "n_estimators": 700,
+    "learning_rate": 0.016305687346221478,
+    "num_leaves": 18,
+    "min_child_samples": 53,
+    "subsample": 0.8,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.6521211214797689,
+    "reg_lambda": 0.12561043700013558,
+    "random_state": 42
+  }
+}
