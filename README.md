@@ -40,7 +40,7 @@ Decision at the cost-optimal threshold: precision 36.8%  , recall 57.2%, expecte
   <img src="reports/calibration.png" width="30%">
 </p>
 
-![SHAP summary](reports/shap_summary.png)
+![SHAP summary](shap_summary.png)
 
 ## Run it
 ```bash
