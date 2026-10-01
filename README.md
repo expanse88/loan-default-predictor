@@ -3,7 +3,7 @@
 End-to-end tabular ML project: messy credit data → calibrated default-probability
 model → explainable predictions in a deployed web app.
 
-**Application Link:-**https://your-loan-predictor-13.streamlit.app
+Application Link:-https://your-loan-predictor-13.streamlit.app
 
 ![App screenshot](reports/app_screenshot.png)
 
